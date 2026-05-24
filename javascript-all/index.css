@@ -89,8 +89,28 @@ body {
     margin-right: 10px;
 }
 
-.humidity,
-.wind { 
+.humidity-icon {
+    width: 40px;
+    margin-right: 10px;
+}
+.wind-icon { 
+    width: 40px;
+    margin-right: 10px;
+}
+.wind-value {
     font-size: 28px;
     margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+    color: rgb(241, 97, 97)
 }
